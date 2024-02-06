@@ -58,3 +58,9 @@ o	Find the remainder of dividing the result by the fourth number.
 
 let chain = (((n2 - n1) * n3) % n4);
 console.log (chain);
+
+/*•	Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.*/
+
+const isUnder25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
+// console.log(isOver25); // sanity test.
+console.log(isUnder25);
