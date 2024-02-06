@@ -64,3 +64,7 @@ console.log (chain);
 const isUnder25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
 // console.log(isOver25); // sanity test.
 console.log(isUnder25);
+
+const newIsValid = isSum50 && isTwoOdd && isUnder25 && isUnique;
+
+console.log(newIsValid);
