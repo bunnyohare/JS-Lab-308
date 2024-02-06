@@ -44,5 +44,5 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
-  let five-multiple = 
-  console.log();
+  let fiveMultiple = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0; 
+  console.log(fiveMultiple);
