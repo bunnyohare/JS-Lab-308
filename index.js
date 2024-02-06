@@ -49,3 +49,12 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   //•	Check if the first number is larger than the last. Cache the result in a variable.
  let firstLastComp =(n1 > n4);
  console.log(firstLastComp);
+
+ /*•	Accomplish the following arithmetic chain:
+o	Subtract the first number from the second number.
+o	Multiply the result by the third number.
+o	Find the remainder of dividing the result by the fourth number.
+*/
+
+let chain = (((n2 - n1) * n3) % n4);
+console.log (chain);
